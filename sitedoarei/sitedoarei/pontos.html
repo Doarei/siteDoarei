@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/logo-icon.jpeg" type="image/x-icon">
+  <title>Doarei</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+
+  <!--Navbar-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="home.html">DOAREI</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="home.html">Página Inicial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Sobre.html">Sobre o Projeto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Conheça
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+              <li><a class="dropdown-item" href="doacao.html">FAÇA SUA DOAÇÃO</a></li>
+              <li><a class="dropdown-item" href="emprestar.html">EMPRESTIMO DE EQUIPAMENTOS</a></li>
+              <li><a class="dropdown-item" href="pontos.html">PONTOS DE ACESSO A INTERNET</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Navbar-->
+
+  <!--Jumbotron-->
+  <div class="container">
+    <div class="p-5 bg-light container-fluid">
+      <h1 class="display-4">Conheça os pontos de Wi-fi para estudos.</h1>
+    </div>
+  </div>
+  <!--Jumbotron-->
+
+
+
+  <br><br><br>
+
+  <!--Carousel-->
+
+  <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="pontoswifi.png" class="d-block w-100" alt="300px">
+      </div>
+      <div class="carousel-item">
+        <img src="ponto2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pontos3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--Carousel-->
+
+  <br>
+
+  <!--Formulario-->
+
+  <div class="container">
+    <div class="container-fluid">
+      <h4 class="mt-4">Agendamento para Estudos</h4>
+      <div class="row">
+        <form class="row ">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Nome Completo:</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <br>
+          <div class="col-md-2">
+            <label for="inputcpf" class="form-label">CPF:</label>
+            <input type="cpf" class="form-control" id="inputcpf">
+          </div>
+          <br>
+          <div class="col-md-2">
+            <label for="inputrg" class="form-label">Data de Nascimento:</label>
+            <input type="date" class="form-control" id="inputdate">
+          </div>
+          <br>
+          <div class="col-md-6">
+            <br>
+            <label for="inputState" class="form-label">Selecione um ponto de estudo:</label>
+            <select class="form-select" aria-label="Default select example">
+              <option>Museu Osório César (Prefeitura de Franco da Rocha-SP)</option>
+              <option>Biblioteca (Prefeitura de Mauá-SP)</option>
+              <option>Centro de esportes (Prefeitura de Recife-PE)</option>
+              <option>Biblioteca (Prefeitura de Minas Gerais-MG)</option>
+              <option>Museu do Amanhã (Prefeitura do Rio de Janeiro-RJ)</option>
+            </select>
+          </div>
+          <br>
+          <div class="col-md-2">
+            <br>
+            <label for="inputrg" class="form-label">Data</label>
+            <input type="date" class="form-control" id="inputdate">
+          </div>
+          <br>
+          <div class="col-md-2">
+            <br>
+            <label for="inputrg" class="form-label">Horário</label>
+            <input type="time" class="form-control" id="inputdate">
+          </div>
+
+          <br><br>
+
+          <div class="col-3">
+            <br>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!--Formulario-->
+
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+
+  <!----footer ---->
+  <footer class="d-flex align-items-center justify-content-center">
+    <a class="nav-item">
+      <a class="nav-link" href="http://www.facebook.com"><img src="face.png"> </a>
+      <a class="nav-item">
+        <a class="nav-link" href="https://www.instagram.com/"><img src="insta.png"></a>
+      </a>
+      <a class="nav-item">
+        <a class="nav-link" href="https://web.whatsapp.com/"><img src="zap.png"></a>
+      </a>
+    </a>
+    <p class="">&#169 by Squad 23</p>
+  </footer>
+
+
+
+  <!--Javascript-->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/logo-icon.jpeg" type="image/x-icon">
+  <title>Doarei</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+
+  <!--Navbar-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="home.html">DOAREI</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="home.html">Página Inicial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Sobre.html">Sobre o Projeto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Conheça
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+              <li><a class="dropdown-item" href="doacao.html">DOAÇÃO</a></li>
+              <li><a class="dropdown-item" href="emprestar.html">EMPRESTIMO DE EQUIPAMENTOS</a></li>
+              <li><a class="dropdown-item" href="pontos.html">PONTOS DE ACESSO A INTERNET</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Navbar-->
+
+  <!--Jumbotron-->
+  
+  <div class="container">
+    <div class="p-5 bg-light container-fluid">
+      <a>
+        <h1 class="display-4">Doarei
+      </a></h1>
+      <p class="lead">Faça parte dessa corrente do bem, doe!</p>
+        <h5>Você tem algum Smartphone, notebook ou computador que não usa mais? Ajude um estudante, assim estará
+        contribuindo para o desenvolvimento do nosso país! "É a educação que faz o futuro parecer um lugar de esperança
+        e transformação!"</h5>
+    </div>
+
+    <!--Jumbotron-->
+
+
+    <!--Accordion-->
+
+    <h4 class="mt-4">Conheça o Projeto!</h4>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Sobre as doações
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Aceitamos doações de equipamentos, de pessoas físicas e jurídicas, os aparelhos serão higienizados e estará disponivel nos pontos de wi-fi ou serão entregues casa do solicitante.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Sobre emprestimo de equipamento
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+           O estudante fará um cadastro e enviara suas informações para ter acesso ao equipamento.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Sobre pontos de Wi-fi
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Em parceria com as prefeituras das cidades, será fornecido salas com a acesso a internet e os equipamentos, basta o estudante agendar horário e data.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Accordion-->
+  
+  <br><br>
+
+  <!----footer ---->
+  <footer class="d-flex align-items-center justify-content-center">
+    <a class="nav-item">
+      <a class="nav-link" href="http://www.facebook.com"><img src="face.png"> </a>
+      <a class="nav-item">
+        <a class="nav-link" href="https://www.instagram.com/"><img src="insta.png"></a>
+      </a>
+      <a class="nav-item">
+        <a class="nav-link" href="https://web.whatsapp.com/"><img src="zap.png"></a>
+      </a>
+    </a>
+    <p class="">&#169 by Squad 23</p>
+  </footer>
+
+
+  <!--Javascript-->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
